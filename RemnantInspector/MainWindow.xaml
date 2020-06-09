@@ -1,0 +1,29 @@
+﻿<Window x:Class="RemnantInspector.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RemnantInspector"
+        xmlns:convert="clr-namespace:RemnantInspector.Converter"
+        mc:Ignorable="d" WindowStartupLocation="Manual"
+        Title="RemnantInspector" Height="Auto" Width="350" WindowStyle="None" 
+        ShowInTaskbar="True" AllowsTransparency="True" Background="Transparent"
+        SizeToContent="Height" Topmost="True" ResizeMode="NoResize" Icon="Assets/iconfinder_handyArtboard_4_3044135.png"
+        MaxHeight="8000">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        
+        <!--
+        <TextBlock Grid.Row="0" Text="{Binding AdventureZone}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18" FontWeight="SemiBold"
+                   Foreground="#FFFFFF" />
+        -->
+        <ListBox x:Name="lstData" Grid.Row="1" Background="Transparent" SelectionMode="Single" BorderThickness="0"
+                 ItemContainerStyle="{StaticResource OverlayItemListStyle}" Width="350" Height="Auto"
+                 ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled" 
+                 IsHitTestVisible="False" ItemsSource="{Binding RemnantDataObjects}" />
+    </Grid>
+</Window>

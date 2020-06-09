@@ -1,0 +1,111 @@
+﻿<Application x:Class="RemnantInspector.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:RemnantInspector"
+             xmlns:convert="clr-namespace:RemnantInspector.Converter"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <convert:IsMissingToForegroundColorConvert x:Key="IsMissingToForegroundColor" />
+        <convert:IsMissingItemToOpacityConvert x:Key="IsMissingItemToOpacity" />
+        <convert:IsAllItemsCompletedToVisibilityConvert x:Key="IsAllItemsCompletedToVisibility" />
+        <convert:IsBossDescriptionAvailableToVisibilityConvert x:Key="IsBossDescriptionAvailableToVisibility" />
+        <convert:EventLocationToVisibilityConvert x:Key="EventLocationToVisibilityGroup" />
+        
+        <Style x:Key="EventItemListStyle" TargetType="{x:Type ListBoxItem}">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="Foreground" Value="{Binding IsMissingItem, Converter={StaticResource IsMissingToForegroundColor}}" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="FontSize" Value="10" />
+            <Setter Property="Opacity" Value="{Binding IsMissingItem, Converter={StaticResource IsMissingItemToOpacity}}" />
+            <Setter Property="IsHitTestVisible" Value="False" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type ListBoxItem}">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <TextBlock Text="{Binding ItemType}" MinWidth="70" Margin="0,0,8,0" Grid.Column="0" Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Center" />
+                            <TextBlock Text="{Binding ItemDisplayName}" Grid.Column="1" Grid.Row="0"  HorizontalAlignment="Left" VerticalAlignment="Center" />
+                            <TextBlock Text="{Binding IsMissingItemDisplay}" Grid.Column="2" Grid.Row="0"  HorizontalAlignment="Left" VerticalAlignment="Center" />
+                            <TextBlock Text="{Binding ItemDescription, StringFormat={}↳ {0}}" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Center" Opacity=".60"
+                                       Margin="10,0,0,0" TextWrapping="Wrap"
+                                       Visibility="{Binding DisplayItemInfo, Converter={StaticResource IsBossDescriptionAvailableToVisibility}}" Foreground="#ffffff"/>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="OverlayItemListStyle" TargetType="{x:Type ListBoxItem}">
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="Margin" Value="0,2" />
+            <Setter Property="Opacity" Value="1" />
+            <Setter Property="IsHitTestVisible" Value="False" />
+            <Setter Property="Visibility" Value="{Binding EventMainZone, Converter={StaticResource EventLocationToVisibilityGroup}}" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type ListBoxItem}">
+                        <Border CornerRadius="3" SnapsToDevicePixels="True" IsHitTestVisible="False">
+                            <Border.Background>
+                                <RadialGradientBrush GradientOrigin="0.0,0.0" RadiusX="2">
+                                    <GradientStop Offset="0.0" Color="#48131013" />
+                                    <GradientStop Offset="0.5" Color="#48131013" />
+                                    <GradientStop Offset="1.0" Color="#480d0a0d" />
+                                </RadialGradientBrush>
+                            </Border.Background>
+                            <StackPanel Orientation="Vertical">
+                                
+                                <!-- Adventure Mode View -->
+                                <StackPanel Orientation="Vertical" Margin="10,5">
+                                    <Grid Margin="5">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto" />
+                                            <ColumnDefinition Width="*" />
+                                        </Grid.ColumnDefinitions>
+                                        <StackPanel Orientation="Vertical" Grid.Column="0">
+                                            <TextBlock Text="{Binding EventType}" HorizontalAlignment="Left" VerticalAlignment="Center"
+                                               FontSize="{TemplateBinding FontSize}" FontWeight="Light"
+                                               Foreground="#ffffff" SnapsToDevicePixels="True"
+                                               Opacity="0.7" Margin="0,0,8,0" MinWidth="75" />
+                                            <TextBlock Text="{Binding EventLocation}" HorizontalAlignment="Left" VerticalAlignment="Center"
+                                               FontSize="11" FontWeight="Light" 
+                                               Foreground="#ffffff" SnapsToDevicePixels="True"
+                                               Opacity="0.7" />
+                                        </StackPanel>
+
+                                        <TextBlock Text="{Binding EventTitle}" HorizontalAlignment="Right" VerticalAlignment="Center"
+                                               FontSize="{TemplateBinding FontSize}" FontWeight="{TemplateBinding FontWeight}"
+                                               Foreground="#ffffff"
+                                               SnapsToDevicePixels="True"
+                                               Opacity="1.0" Grid.Column="1" />
+                                    </Grid>
+                                    <StackPanel Orientation="Vertical" Visibility="{Binding IsAllItemsCompleted, Converter={StaticResource IsAllItemsCompletedToVisibility}}">
+                                        <ListBox ItemsSource="{Binding EventItems}" ItemContainerStyle="{StaticResource EventItemListStyle}" Foreground="#ffffff" DisplayMemberPath="ItemDisplayName" 
+                                             BorderThickness="0" Background="Transparent" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled" />
+                                        <StackPanel Orientation="Vertical" Visibility="{Binding IsBossDescriptionAvailable, Converter={StaticResource IsBossDescriptionAvailableToVisibility}}">
+                                            <Rectangle HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="5" Height="1" Fill="#ffffff" Opacity="0.25" />
+                                            <TextBlock Text="{Binding EventBossDescription}" Margin="5" Opacity="0.7" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="10" TextWrapping="Wrap" FontWeight="Regular" SnapsToDevicePixels="True" />
+                                        </StackPanel>
+                                    </StackPanel>
+                                </StackPanel>
+                                
+                                
+                            </StackPanel>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+
+    </Application.Resources>
+</Application>

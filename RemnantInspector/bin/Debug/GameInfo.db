@@ -1,0 +1,884 @@
+<RemnantDataSheet>
+  <SubLocations>
+    <SubLocation eventName="ArmorVault" location="VaultOfTheHeralds"></SubLocation>
+    <SubLocation eventName="BarbTerror" location="NeedleLair"></SubLocation>
+    <SubLocation eventName="BlinkFiend" location="Widow'sPass"></SubLocation>
+    <SubLocation eventName="BlinkThief" location="ForgottenUndercroft"></SubLocation>
+    <SubLocation eventName="Brabus" location="CutthroatChannel"></SubLocation>
+    <SubLocation eventName="BrainBug" location="StrangePass"></SubLocation>
+    <SubLocation eventName="DoeShrine" location="Widow'sVestry"></SubLocation>
+    <SubLocation eventName="Fatty" location="TheFetidGlade"></SubLocation>
+    <SubLocation eventName="FlickeringHorror" location="HallOfWhispers"></SubLocation>
+    <SubLocation eventName="HoundMaster" location="TheBurrows"></SubLocation>
+    <SubLocation eventName="HuntersHideout" location="HiddenGrotto"></SubLocation>
+    <SubLocation eventName="ImmolatorAndZephyr" location="WitheringVillage"></SubLocation>
+    <SubLocation eventName="KinCaller" location="TheHallOfJudgement"></SubLocation>
+    <SubLocation eventName="LastWill" location="Sorrow'sField"></SubLocation>
+    <SubLocation eventName="LizAndLiz" location="TheWarren"></SubLocation>
+    <SubLocation eventName="MadMerchant" location="Junktown"></SubLocation>
+    <SubLocation eventName="RootBrute" location="SunkenPassage"></SubLocation>
+    <SubLocation eventName="RootCultist" location="MarrowPass"></SubLocation>
+    <SubLocation eventName="RootDragon" location="TheAshYard"></SubLocation>
+    <SubLocation eventName="RootEnt" location="TheChokingHollow"></SubLocation>
+    <SubLocation eventName="RootMother" location="ChurchOfTheHarbinger"></SubLocation>
+    <SubLocation eventName="RootShrine" location="TheGallows"></SubLocation>
+    <SubLocation eventName="RootTumbleweed" location="TheTangledPass"></SubLocation>
+    <SubLocation eventName="RootWraith" location="TheHiddenSanctum"></SubLocation>
+    <SubLocation eventName="Sentinel" location="ShackledCanyon"></SubLocation>
+    <SubLocation eventName="SlimeHulk" location="TheDrownedTrench"></SubLocation>
+    <SubLocation eventName="Splitter" location="ResearchStationAlpha"></SubLocation>
+    <SubLocation eventName="StormCaller" location="Heretic'sNest"></SubLocation>
+    <SubLocation eventName="StuckMerchant" location="MerchantDungeon"></SubLocation>
+    <SubLocation eventName="SwampGuardian" location="TheGrotto"></SubLocation>
+    <SubLocation eventName="SwarmMaster" location="TheIronRift"></SubLocation>
+    <SubLocation eventName="TheCleanRoom" location="ThePurgeHall"></SubLocation>
+    <SubLocation eventName="TheHarrow" location="TheBunker"></SubLocation>
+    <SubLocation eventName="TheLostGantry" location="ConcourseOfTheSun"></SubLocation>
+    <SubLocation eventName="TheRisen" location="Ahanae'sLament"></SubLocation>
+    <SubLocation eventName="TotemFather" location="TheTempestCourt"></SubLocation>
+    <SubLocation eventName="Tyrant" location="TheCapillary"></SubLocation>
+    <SubLocation eventName="UndyingKing" location="UndyingThrone"></SubLocation>
+    <SubLocation eventName="Vyr" location="TheArdentTemple"></SubLocation>
+    <SubLocation eventName="WastelandGuardian" location="LoomOfTheBlackSun"></SubLocation>
+    <SubLocation eventName="Wisp" location="CircletHatchery"></SubLocation>
+    <SubLocation eventName="Wolf" location="TheRavager'sHaunt"></SubLocation>
+    <SubLocation eventName="WolfShrine" location="TempleOfTheRavager"></SubLocation>
+  </SubLocations>
+  <MainLocations>
+    <MainLocation key="City Overworld Zone1" name="Fairview"></MainLocation>
+    <MainLocation key="City Overworld Zone2" name="Westcourt"></MainLocation>
+    <MainLocation key="Wasteland Overworld Zone1" name="TheEasternWind"></MainLocation>
+    <MainLocation key="Wasteland Overworld Zone2" name="TheScouringWaste"></MainLocation>
+    <MainLocation key="Swamp Overworld Zone1" name="TheFetidGlade"></MainLocation>
+    <MainLocation key="Swamp Overworld Zone2" name="TheMistFen"></MainLocation>
+    <MainLocation key="Jungle Overworld Zone1" name="TheVerdantStrand"></MainLocation>
+    <MainLocation key="Jungle Overworld Zone2" name="TheScaldingGlade"></MainLocation>
+  </MainLocations>
+  <EventItems>
+    <Event name="AbandonedThrone">
+      <Item name="Luminescent" index="1">/Items/Traits/Trait_Luminescent</Item>
+    </Event>
+    <Event name="AcesCoin">
+      <Item name="Strange Coin" index="1">/Items/Weapons/Basic/HandGuns/Revolver/Weapon_Revolver</Item>
+    </Event>
+    <Event name="AggressorsBane">
+      <Item name="Aggressor's Bane" index="1">/Items/Trinkets/AggressorsBane</Item>
+    </Event>
+    <Event name="ArmorVault">
+      <Item name="Akari Mask" index="1">/Items/Armor/Akari/Armor_Head_Akari</Item>
+      <Item name="Akari Garb" index="1">/Items/Armor/Akari/Armor_Body_Akari</Item>
+      <Item name="Akari Leggings" index="1">/Items/Armor/Akari/Armor_Legs_Akari</Item>
+    </Event>
+    <Event name="BandOfCastor">
+      <Item name="Band Of Castor" index="1">/Items/Trinkets/BandsOfCastorAndPollux/Trinket_BandOfCastor</Item>
+    </Event>
+    <Event name="BandOfPollux">
+      <Item name="Band Of Pollux" index="1">/Items/Trinkets/BandsOfCastorAndPollux/Trinket_BandOfPollux</Item>
+    </Event>
+    <Event name="BandOfStrength">
+      <Item name="Band Of Strength" index="1">/Items/Trinkets/BandOfStrength</Item>
+    </Event>
+    <Event name="BarbTerror">
+      <Item name="Unstable Quills" index="1">/Items/Mods/UnstableQuills</Item>
+    </Event>
+    <Event name="BlinkFiend">
+      <Item name="Blink Token" index="1">/Items/Mods/BlinkToken</Item>
+    </Event>
+    <Event name="BlinkThief">
+      <Item name="Ricochet Rifle" index="1">/Items/Weapons/Basic/RicochetRifle/Weapon_Pan_RicochetRifle</Item>
+      <Item name="Celerity Stone" index="2">/Items/Trinkets/Trinket_CelerityStone</Item>
+    </Event>
+    <Event name="BloodFont">
+      <Item name="Blood Font" index="1">/Items/Trinkets/Trinket_BloodFont</Item>
+    </Event>
+    <Event name="Brabus">
+      <Item name="Explosive Shot" index="1">/Items/Mods/ExplosiveShot</Item>
+      <Item name="Bandit's Mask" index="2">/Items/Armor/Bandit/Armor_Head_Bandit</Item>
+      <Item name="Bandit Jacket" index="2">/Items/Armor/Bandit/Armor_Body_Bandit</Item>
+      <Item name="Bandit Trousers" index="2">/Items/Armor/Bandit/Armor_Legs_Bandit</Item>
+      <Item name="Cold As Ice" index="3">/Items/Traits/Trait_ColdAsIce</Item>
+    </Event>
+    <Event name="BrainBug">
+      <Item name="Gift of the Iskal" index="1">/Items/Trinkets/GIftOfTheIskal</Item>
+      <Item name="Carapace Great Helm" index="2">/Items/Armor/Carapace/Armor_Head_Carapace</Item>
+      <Item name="Carapace Shell" index="2">/Items/Armor/Carapace/Armor_Body_Carapace</Item>
+      <Item name="Carapace Greaves" index="2">/Items/Armor/Carapace/Armor_Legs_Carapace</Item>
+      <Item name="Luminescent" index="3">/Items/Traits/Trait_Luminescent</Item>
+    </Event>
+    <Event name="BrutalMark">
+      <Item name="Brutal Mark" index="1">/Items/Trinkets/BrutalMark</Item>
+    </Event>
+    <Event name="ButchersFetish">
+      <Item name="Butcher's Fetish" index="1">/Items/Trinkets/ButchersFetish</Item>
+    </Event>
+    <Event name="CleansingJewel">
+      <Item name="Cleansing Jewel" index="1">/Items/Trinkets/CleansingJewel</Item>
+    </Event>
+    <Event name="CompulsionLoop">
+      <Item name="Compulsion Loop" index="1">/Items/Trinkets/CompulsionLoop</Item>
+    </Event>
+    <Event name="Cryptolith">
+      <Item name="Concentration" index="1">/Items/Traits/Trait_Concentration</Item>
+      <Item name="Blood Bond" index="2">/Items/Traits/Trait_BloodBond</Item>
+      <Item name="Labyrinth Helm" index="3">/Items/Armor/Armor_Head_Labyrinth</Item>
+      <Item name="Labyrinth Armor" index="3">/Items/Armor/Armor_Body_Labyrinth</Item>
+      <Item name="Labyrinth Greaves" index="3">/Items/Armor/Armor_Legs_Labyrinth</Item>
+    </Event>
+    <Event name="DeceiversBand">
+      <Item name="Deceiver's Band" index="1">/Items/Trinkets/DeceiversBand</Item>
+    </Event>
+    <Event name="DevouringLoop">
+      <Item name="Devouring Loop" index="1">/Items/Trinkets/DevouringLoop</Item>
+    </Event>
+    <Event name="DoeShrine">
+      <Item name="Scavenger's Bauble" index="1">/Items/Trinkets/Trinket_ScavengersBauble</Item>
+      <Item name="Swiftness" index="2">/Items/Traits/Trait_Swiftness</Item>
+    </Event>
+    <Event name="DrifterMask">
+      <Item name="Drifter's Mask" index="1">/Items/Armor/Drifter/Armor_Head_Drifter</Item>
+    </Event>
+    <Event name="EzlansBand">
+      <Item name="Ezlan's Band" index="1">/Items/Trinkets/Trinket_EzlansBand</Item>
+    </Event>
+    <Event name="Fatty">
+      <Item name="Devastator" index="1">/Items/Weapons/Boss/Devastator/Weapon_Swamp_Devastator</Item>
+      <Item name="Butchers Flail" index="2">/Items/Weapons/Boss/ButchersFlail/Weapon_Swamp_ButchersFlail</Item>
+      <Item name="Glutton" index="3">/Items/Traits/Trait_Glutton</Item>
+      <Item name="Exhausted" index="4">/Player/Emotes/Emote_Exhausted</Item>
+    </Event>
+    <Event name="FetidPool">
+      <Item name="Rusted Amulet" index="1">/Items/Trinkets/Trinket_RustedAmulet</Item>
+      <Item name="Heart Of Darkness" index="2">/Items/Trinkets/HeartOfDarkness</Item>
+      <Item name="Hero's Ring" index="3">/Items/Trinkets/HerosRing</Item>
+      <Item name="Fortification" index="4">/Items/Traits/Trait_Fortification</Item>
+    </Event>
+    <Event name="Flautist">
+      <Item name="Heart Of The Wolf" index="1">/Items/Trinkets/Trinket_HeartOfTheWolf</Item>
+      <Item name="Swiftness" index="2">/Items/Traits/Trait_Swiftness</Item>
+    </Event>
+    <Event name="FlickeringHorror">
+      <Item name="Rift Walker" index="1">/Items/Mods/RiftWalker</Item>
+    </Event>
+    <Event name="FoundersHideout">
+      <Item name="Drifter's Overcoat" index="1">/Items/Armor/Drifter/Armor_Body_Drifter</Item>
+      <Item name="Drifter's Trousers" index="1">/Items/Armor/Drifter/Armor_Legs_Drifter</Item>
+    </Event>
+    <Event name="GalenicCharm">
+      <Item name="Galenic Charm" index="1">/Items/Trinkets/Trinket_GalenicCharm</Item>
+    </Event>
+    <Event name="GraveyardElf">
+      <Item name="Grim Coil" index="1">/Items/Trinkets/GrimCoil</Item>
+      <Item name="Ring Of The Unclean" index="2">/Items/Trinkets/Trinket_RingOfTheUnclean</Item>
+      <Item name="Potency" index="3">/Items/Traits/Trait_Potency</Item>
+    </Event>
+    <Event name="GravityStone">
+      <Item name="Gravity Stone" index="1">/Items/Trinkets/GravityStone</Item>
+    </Event>
+    <Event name="GunslingersCharm">
+      <Item name="Gunslinger's Charm" index="1">/Items/Trinkets/Trinket_GunslingersCharm</Item>
+    </Event>
+    <Event name="GunslignersRing">
+      <Item name="Gunslinger's Ring" index="1">/Items/Trinkets/Trinket_GunslingersRing</Item>
+    </Event>
+    <Event name="HeartSeeker">
+      <Item name="Heart Seeker" index="1">/Items/Trinkets/HeartSeeker</Item>
+    </Event>
+    <Event name="HoundMaster">
+      <Item name="Howler's Immunity" index="1">/Items/Mods/HowlersImmunity</Item>
+    </Event>
+    <Event name="HuntersBand">
+      <Item name="Hunter's Band" index="1">/Items/Trinkets/HuntersBand</Item>
+    </Event>
+    <Event name="HuntersHalo">
+      <Item name="Hunter's Halo" index="1">/Items/Trinkets/Trinket_HuntersHalo</Item>
+    </Event>
+    <Event name="HuntersHideout">
+      <Item name="Hunting Pistol" index="1">/Items/Weapons/Basic/HandGuns/HuntingPistol/Weapon_HuntingPistol</Item>
+      <Item name="Shadow Walker" index="2">/Items/Traits/Trait_ShadowWalker</Item>
+    </Event>
+    <Event name="ImmolatorAndZephyr">
+      <Item name="Wildfire Shot" index="1">/Items/Mods/WildfireShot</Item>
+    </Event>
+    <Event name="IskalQueen">
+      <Item name="Scythe" index="1">/Items/Weapons/Basic/Melee/Weapon_Swamp_Scythe</Item>
+      <Item name="Crossbow" index="2">/Items/Weapons/Basic/LongGuns/Crossbow/Weapon_Swamp_Crossbow</Item>
+      <Item name="Slayer Mask" index="3">/Items/Armor/Slayer/Armor_Head_Slayer</Item>
+      <Item name="Slayer Mantle" index="3">/Items/Armor/Slayer/Armor_Body_Slayer</Item>
+      <Item name="Slayer Boots" index="3">/Items/Armor/Slayer/Armor_Legs_Slayer</Item>
+    </Event>
+    <Event name="KeepersRing">
+      <Item name="Keeper's Ring" index="1">/Items/Trinkets/Trinket_KeepersRing</Item>
+    </Event>
+    <Event name="KinCaller">
+      <Item name="Song Of Swords" index="1">/Items/Mods/SongOfSwords</Item>
+    </Event>
+    <Event name="LastWill">
+      <Item name="Assault Rifle" index="1">/Items/Weapons/Basic/LongGuns/AssaultRifle/Weapon_AssaultRifle</Item>
+      <Item name="Spirit" index="2">/Items/Traits/Trait_Spirit</Item>
+    </Event>
+    <Event name="LeechEmber">
+      <Item name="Leech Ember" index="1">/Items/Trinkets/Trinket_LeechEmber</Item>
+    </Event>
+    <Event name="LizAndLiz">
+      <Item name="Chicago Typewriter" index="1">/Items/Weapons/Basic/LongGuns/MachineGun/Weapon_Machinegun</Item>
+      <Item name="Warrior" index="2">/Items/Traits/Trait_Warrior</Item>
+    </Event>
+    <Event name="MadMerchant">
+      <Item name="Twisted Mask" index="1">/Items/QuestItems/TwistedMask/Quest_TwistedMask</Item>
+    </Event>
+    <Event name="Monolith">
+      <Item name="Void Skull" index="1">/Items/Armor/Void/Armor_Head_Void</Item>
+      <Item name="Void Carapace" index="1">/Items/Armor/Void/Armor_Body_Void</Item>
+      <Item name="Void Greaves" index="1">/Items/Armor/Void/Armor_Legs_Void</Item>
+    </Event>
+    <Event name="MothersRing">
+      <Item name="Mother's Ring" index="1">/Items/Trinkets/Trinket_MothersRing</Item>
+    </Event>
+    <Event name="MudTooth">
+      <Item name="Pocket Watch" index="1">/Quests/Quest_OverworldPOI_MudTooth/Quest_BrabusPocketWatch</Item>
+    </Event>
+    <Event name="OldManAndConstruct">
+      <Item name="Jewel Of The Black Sun" index="1">/Items/Trinkets/JewelOfTheBlackSun</Item>
+      <Item name="Mender's Charm" index="2">/Items/Trinkets/MendersCharm</Item>
+      <Item name="Osseous Helm" index="3">/Items/Armor/Osseous/Armor_Head_Osseous</Item>
+      <Item name="Osseous Husk" index="3">/Items/Armor/Osseous/Armor_Body_Osseous</Item>
+      <Item name="Osseous Kilt" index="3">/Items/Armor/Osseous/Armor_Legs_Osseous</Item>
+      <Item name="Iron Sentinel" index="4">/Items/Mods/IronSentinel</Item>
+    </Event>
+    <Event name="PearlOfLuminescence">
+      <Item name="Pearl Of Luminescence" index="1">/Items/Trinkets/Trinket_PearlOfLuminescence</Item>
+    </Event>
+    <Event name="Penitent">
+      <Item name="Leto's Amulet" index="1">/Items/Trinkets/Trinket_LetosAmulet</Item>
+    </Event>
+    <Event name="PillarOfStone">
+      <Item name="Pillar Of Stone" index="1">/Items/Trinkets/Trinket_PillarOfStone</Item>
+    </Event>
+    <Event name="QueensTemple">
+      <Item name="Pride Of The Iskal" index="1">/Items/Weapons/Boss/PrideOfTheIskal/Weapon_Swamp_PrideOfTheIskal</Item>
+      <Item name="Footwork" index="2">/Items/Traits/Trait_Footwork</Item>
+      <Item name="Seeker" index="3">/Items/Mods/Seeker</Item>
+    </Event>
+    <Event name="RazorStone">
+      <Item name="Razorstone" index="1">/Items/Trinkets/Razorstone</Item>
+    </Event>
+    <Event name="ReggiesRing">
+      <Item name="Scavenger" index="1">/Items/Traits/Trait_Scavenger</Item>
+    </Event>
+    <Event name="RingOfElusion">
+      <Item name="Ring Of Elusion" index="1">/Items/Trinkets/RingOfElusion</Item>
+    </Event>
+    <Event name="RingOfEvasion">
+      <Item name="Ring Of Evasion" index="1">/Items/Trinkets/Trinket_RingOfEvasion</Item>
+    </Event>
+    <Event name="RockOfAnguish">
+      <Item name="Rock Of Anguish" index="1">/Items/Trinkets/RockOfAnguish</Item>
+    </Event>
+    <Event name="RingOfShadows">
+      <Item name="Ring Of Shadows" index="1">/Items/Trinkets/Trinket_RingOfShadows</Item>
+    </Event>
+    <Event name="RootBrute">
+      <Item name="Mantle Of Thorns" index="1">/Items/Mods/MantleOfThorns</Item>
+    </Event>
+    <Event name="RootCultist">
+      <Item name="Braided Thorns" index="1">/Items/Trinkets/BraidedThorns</Item>
+      <Item name="Root Circlet" index="2">/Items/Trinkets/Trinket_RootCirclet</Item>
+    </Event>
+    <Event name="RootDragon">
+      <Item name="Spitfire" index="1">/Items/Weapons/Boss/Root_Spitfire/Weapon_Root_Spitfire</Item>
+      <Item name="Smolder" index="2">/Items/Weapons/Boss/Root_Smolder/Weapon_Root_Smolder</Item>
+      <Item name="Beckon" index="3">/Player/Emotes/Emote_Beckon</Item>
+    </Event>
+    <Event name="RootMother">
+      <Item name="Mother's Blessing" index="1">/Items/Traits/Trait_MothersBlessing</Item>
+      <Item name="Sniper Rifle" index="2">/Items/Weapons/Basic/LongGuns/SniperRifle/Weapon_SniperRifle</Item>
+    </Event>
+    <Event name="RootTumbleweed">
+      <Item name="Seedcaller" index="1">/Items/Mods/SeedCaller</Item>
+    </Event>
+    <Event name="RootWraith">
+      <Item name="Rattleweed" index="1">/Items/Mods/Rattleweed</Item>
+    </Event>
+    <Event name="RootEnt">
+      <Item name="Sporebloom" index="1">/Items/Weapons/Boss/Root_SporeLauncher/Weapon_Root_SporeLauncher</Item>
+      <Item name="Petrified Maul" index="2">/Items/Weapons/Boss/Root_PetrifiedMaul/Weapon_Root_PetrifiedMaul</Item>
+      <Item name="Quick Hands" index="3">/Items/Traits/Trait_QuickHands</Item>
+      <Item name="Cheer" index="4">/Player/Emotes/Emote_Cheer</Item>
+    </Event>
+    <Event name="RootShrine">
+      <Item name="Twisted Hood" index="1">/Items/Armor/Twisted/Armor_Head_Twisted</Item>
+      <Item name="Twisted Cage" index="1">/Items/Armor/Twisted/Armor_Body_Twisted</Item>
+      <Item name="Twisted Tassets" index="1">/Items/Armor/Twisted/Armor_Legs_Twisted</Item>
+    </Event>
+    <Event name="Sagestone">
+      <Item name="Sagestone" index="1">/Items/Trinkets/Trinket_Sagestone</Item>
+    </Event>
+    <Event name="Sentinel">
+      <Item name="Beckon" index="1">/Items/Mods/Beckon</Item>
+    </Event>
+    <Event name="SlaveRevolt">
+      <Item name="Triage" index="1">/Items/Traits/Trait_Triage</Item>
+    </Event>
+    <Event name="SlimeHulk">
+      <Item name="Corrosive Aura" index="1">/Items/Mods/CorrosiveAura</Item>
+      <Item name="Catalyst" index="2">/Items/Traits/Trait_Catalyst</Item>
+    </Event>
+    <Event name="SoulLink">
+      <Item name="Soul Link" index="1">/Items/Trinkets/SoulLink</Item>
+    </Event>
+    <Event name="Splitter">
+      <Item name="Leto's Helmet" index="1">/Items/Armor/Leto/Armor_Head_Leto</Item>
+      <Item name="Leto's Armor" index="1">/Items/Armor/Leto/Armor_Body_Leto</Item>
+      <Item name="Leto's Leggings" index="1">/Items/Armor/Leto/Armor_Legs_Leto</Item>
+      <Item name="Flicker Cloak" index="2">/Items/Mods/FlickerCloak</Item>
+    </Event>
+    <Event name="StockpileCirclet">
+      <Item name="Stockpile Circlet" index="1">/Items/Trinkets/Trinket_StockpileCirclet</Item>
+    </Event>
+    <Event name="StoneOfBalance">
+      <Item name="Stone Of Balance" index="1">/Items/Trinkets/Trinket_StoneOfBalance</Item>
+    </Event>
+    <Event name="StormAmulet">
+      <Item name="Storm Amulet" index="1">/Items/Trinkets/Trinket_StormAmulet</Item>
+    </Event>
+    <Event name="StormCaller">
+      <Item name="Storm Caller" index="1">/Items/Mods/StormCaller</Item>
+    </Event>
+    <Event name="StuckMerchant">
+      <Item name="Spear" index="1">/Items/Weapons/Basic/Spear/Weapon_Pan_Spear</Item>
+      <Item name="Radiant Greaves" index="2">/Items/Armor/Radiant/Armor_Legs_Radiant</Item>
+      <Item name="Radiant Protector" index="2">/Items/Armor/Radiant/Armor_Body_Radiant</Item>
+      <Item name="Radiant Visage" index="2">/Items/Armor/Radiant/Armor_Head_Radiant</Item>
+      <Item name="Guardian's Ring" index="3">/Items/Trinkets/Trinket_GuardiansRing</Item>
+      <Item name="Guardians Blessing" index="4">/Items/Traits/Trait_GuardiansBlessing</Item>
+    </Event>
+    <Event name="SwampGuardian">
+      <Item name="Hive Cannon" index="1">/Items/Weapons/Boss/HiveCannon/Weapon_Swamp_HiveCannon</Item>
+      <Item name="Guardian Axe" index="2">/Items/Weapons/Boss/GuardianAxe/Weapon_Swamp_GuardianAxe</Item>
+      <Item name="Executioner" index="3">/Items/Traits/Trait_Executioner</Item>
+      <Item name="Confused" index="4">/Player/Emotes/Emote_Confused</Item>
+    </Event>
+    <Event name="SwarmMaster">
+      <Item name="Breath Of the Desert" index="1">/Items/Mods/BreathOfDesert</Item>
+    </Event>
+    <Event name="TalismanOfAnimosity">
+      <Item name="Talisman Of Animosity" index="1">/Items/Trinkets/TalismanOfAnimosity</Item>
+    </Event>
+    <Event name="TalismanOfPerseverance">
+      <Item name="Talisman Of Perseverance" index="1">/Items/Trinkets/TalismanOfPerseverance</Item>
+    </Event>
+    <Event name="TheCleanRoom">
+      <Item name="Wastelander Flail" index="1">/Items/Weapons/Basic/Wasteland_Flail/Weapon_Wasteland_Flail</Item>
+    </Event>
+    <Event name="TheHarrow">
+      <Item name="Defiler" index="1">/Items/Weapons/Boss/Defiler/Weapon_Wasteland_Defiler</Item>
+      <Item name="Lost Harpoon" index="2">/Items/Weapons/Boss/LostHarpoon/Weapon_Wasteland_LostHarpoon</Item>
+      <Item name="Fail" index="3">/Player/Emotes/Emote_Fail</Item>
+    </Event>
+    <Event name="TheLostGantry">
+      <Item name="Beam Rifle" index="1">/Items/Weapons/Basic/Wasteland_BeamRifle/Weapon_Wasteland_BeamRifle</Item>
+    </Event>
+    <Event name="TheRisen">
+      <Item name="Soul Anchor" index="1">/Items/Trinkets/SoulAnchor</Item>
+    </Event>
+    <Event name="TimidBeetle">
+      <Item name="Carapace Great Helm" index="1">/Items/Armor/Carapace/Armor_Head_Carapace</Item>
+      <Item name="Carapace Shell" index="1">/Items/Armor/Carapace/Armor_Body_Carapace</Item>
+      <Item name="Carapace Greaves" index="1">/Items/Armor/Carapace/Armor_Legs_Carapace</Item>
+      <Item name="Iskal Hunter Band" index="2">/Items/Trinkets/Trinket_IskalHunterBand</Item>
+      <Item name="Amulet Of Epicaricacy" index="3">/Items/Trinkets/AmuletOfEpicaricacy</Item>
+      <Item name="Ring Of The Mantis" index="4">/Items/Trinkets/RingOfTheMantis</Item>
+    </Event>
+    <Event name="TotemFather">
+      <Item name="Arcane Strike" index="1">/Items/Traits/Trait_ArcaneStrike</Item>
+      <Item name="Eye Of The Storm" index="2">/Items/Weapons/Boss/Pan_EyeOfTheStorm/Weapon_Pan_EyeOfTheStorm</Item>
+      <Item name="Voice Of The Tempest" index="3">/Items/Weapons/Boss/Pan_VoiceOfTheTempest/Weapon_Pan_VoiceOfTheTempest</Item>
+      <Item name="Tea Time" index="4">/Player/Emotes/Emote_TeaTime</Item>
+    </Event>
+    <Event name="Tyrant">
+      <Item name="Swarm" index="1">/Items/Mods/Swarm</Item>
+      <Item name="Catalyst" index="2">/Items/Traits/Trait_Catalyst</Item>
+    </Event>
+    <Event name="UndyingKing">
+      <Item name="Ruin" index="1">/Items/Weapons/Boss/Ruin/Weapon_Wasteland_Ruin</Item>
+      <Item name="Kingslayer" index="2">/Items/Traits/Trait_Kingslayer</Item>
+      <Item name="Riven" index="3">/Items/Weapons/Boss/Riven/Weapon_Wasteland_Riven</Item>
+      <Item name="Gravedigger" index="4">/Player/Emotes/Emote_Gravedigger</Item>
+    </Event>
+    <Event name="VengeanceIdol">
+      <Item name="Vengeance Idol" index="1">/Items/Trinkets/VengeanceIdol</Item>
+    </Event>
+    <Event name="Uncategorized">
+      <Item name="Exploiter" index="1">/Items/Traits/Trait_Exploiter</Item>
+      <Item name="Handling" index="2">/Items/Traits/Trait_Handling</Item>
+      <Item name="Keeper's Blessing" index="3">/Items/Traits/Trait_KeepersBlessing</Item>
+      <Item name="Rapid Strike" index="4">/Items/Traits/Trait_RapidStrike</Item>
+      <Item name="Revivalist" index="5">/Items/Traits/Trait_Revivalist</Item>
+      <Item name="Sleight Of Hand" index="6">/Items/Traits/Trait_SleightOfHand</Item>
+      <Item name="Suspicion" index="7">/Items/Traits/Trait_Suspicion</Item>
+      <Item name="Teamwork" index="8">/Items/Traits/Trait_Teamwork</Item>
+      <Item name="Trigger Happy" index="9">/Items/Traits/Trait_TriggerHappy</Item>
+      <Item name="Will To Live" index="10">/Items/Traits/Trait_WillToLive</Item>
+      <Item name="World Walker" index="11">/Items/Traits/Trait_WorldWalker</Item>
+      <Item name="Invoker" index="12">/Items/Traits/Trait_Invoker</Item>
+      <Item name="Wave" index="13">/Player/Emotes/Emote_Wave</Item>  
+    </Event>
+    <Event name="Vyr">
+      <Item name="Veil Of The Black Tear" index="1">/Items/Mods/VeilOfTheBlackTear</Item>
+    </Event>
+    <Event name="WailingWood">
+      <Item name="Twisted Idol" index="1">/Items/Trinkets/Trinket_TwistedIdol</Item>
+      <Item name="Bark Skin" index="2">/Items/Traits/Trait_BarkSkin</Item>
+    </Event>
+    <Event name="Ward13">
+      <Item name="Coachgun" index="1">/Items/Weapons/Basic/LongGuns/Coachgun/Weapon_Coachgun</Item>
+      <Item name="Hatchet" index="2">/Items/Weapons/Human/Melee/Hatchet/Weapon_Hatchet</Item>
+      <Item name="Cultist Hat" index="3">/Items/Armor/Cultist/Armor_Body_Cultist</Item>
+      <Item name="Cultist Duster" index="3">/Items/Armor/Cultist/Armor_Head_Cultist</Item>
+      <Item name="Cultist Britches" index="3">/Items/Armor/Cultist/Armor_Legs_Cultist</Item>
+      <Item name="Hunting Rifle" index="4">/Items/Weapons/Basic/LongGuns/HuntingRifle/Weapon_HuntingRifle</Item>
+      <Item name="Sword" index="5">/Items/Weapons/Human/Melee/Sword/Weapon_Sword</Item>
+      <Item name="Hunter Shroud" index="6">/Items/Armor/Hunter/Armor_Body_Hunter</Item>
+      <Item name="Hunter Trenchcoat" index="6">/Items/Armor/Hunter/Armor_Head_Hunter</Item>
+      <Item name="Hunter Pants" index="6">/Items/Armor/Hunter/Armor_Legs_Hunter</Item>
+      <Item name="Shotgun" index="7">/Items/Weapons/Basic/LongGuns/Shotgun/Weapon_Shotgun</Item>
+      <Item name="Scrapper Bodyplate" index="8">/Items/Armor/Scrapper/Armor_Body_Scrapper</Item>
+      <Item name="Scrapper Helmet" index="8">/Items/Armor/Scrapper/Armor_Head_Scrapper</Item>
+      <Item name="Scrapper Workboots" index="8">/Items/Armor/Scrapper/Armor_Legs_Scrapper</Item>
+      <Item name="Hammer" index="9">/Items/Weapons/Human/Melee/Hammer/Weapon_Hammer</Item>
+      <Item name="Elder Knowledge" index="10">/Items/Traits/Trait_ElderKnowledge</Item>
+      <Item name="Submachinegun" index="11">/Items/Weapons/Basic/HandGuns/SubMachineGun/Weapon_Submachinegun</Item>
+      <Item name="Ring Of The Admiral" index="12">/Items/Trinkets/RingOfTheAdmiral</Item>
+    </Event>
+    <Event name="Ward17">
+      <Item name="Repulsor" index="1">/Items/Weapons/Boss/Guns/LongGuns/Repulsor/Weapon_Atoll_Repulsor</Item>
+      <Item name="Mind's Eye" index="2">/Items/Traits/Trait_MindsEye</Item>
+      <Item name="Praise The Gun" index="3">/Player/Emotes/Emote_PraiseTheGun</Item>
+    </Event>
+    <Event name="Wisp">
+      <Item name="Soul Ember" index="1">/Items/Trinkets/SoulEmber</Item>
+      <Item name="Evocation" index="2">/Items/Traits/Trait_Evocation</Item>
+    </Event>
+    <Event name="WastelandGuardian">
+      <Item name="World Breaker" index="1">/Items/Weapons/Boss/WorldBreaker/Weapon_Wasteland_WorldBreaker</Item>
+      <Item name="Particle Accelerator" index="2">/Items/Weapons/Boss/ParticleAccelerator/Weapon_Wasteland_ParticleAccelerator</Item>
+      <Item name="Recovery" index="3">/Items/Traits/Trait_Recovery</Item>
+      <Item name="Laugh" index="4">/Player/Emotes/Emote_Laugh</Item>
+    </Event>
+    <Event name="Wolf">
+      <Item name="Curse Of The Jungle God" index="1">/Items/Weapons/Boss/Pan_CurseOfTheJungleGod/Weapon_Pan_CurseOfTheJungleGod</Item>
+      <Item name="Scar of The Jungle God" index="2">/Items/Weapons/Boss/Pan_ScarOfTheJungleGod/Weapon_Pan_ScarOfTheJungleGod</Item>
+      <Item name="Arcane Strike" index="3">/Items/Traits/Trait_ArcaneStrike</Item>
+      <Item name="Swiftness" index="4">/Items/Traits/Trait_Swiftness</Item>
+      <Item name="Freeze Frame" index="5">/Player/Emotes/Emote_FreezeFrame</Item>
+    </Event>
+    <Event name="WolfShrine">
+      <Item name="Elder Headdress" index="1">/Items/Armor/Elder/Armor_Head_Elder</Item>
+      <Item name="Elder Raiment" index="1">/Items/Armor/Elder/Armor_Body_Elder</Item>
+      <Item name="Elder Leggings" index="1">/Items/Armor/Elder/Armor_Legs_Elder</Item>
+    </Event>
+  </EventItems>
+  <BossDescriptions>	
+    <Boss name="RootEnt">Spore Gland: You need to kill him without destroying his legs.&#xD;This item allows you to purchase Sporebloom from McCabe.&#xD;&#xD;Twisted Heart: You need to destroy its legs before killing him to obtain this drop.&#xD;If you destroy the Ent legs you cannot get the Spore Gland.&#xD;This item allows you to purchase Petrified Maul from McCabe.&#xD;Provisioner Ring: Can be obtained on Hardcore Mode&#xD;</Boss>
+    <Boss name="RootDragon">Blazing Heart: Can only be obtained by killing Singe without destroying his tail. This item allows you to purchase Spitfire from McCabe.&#xD;&#xD;Dragon Links: Can be obtained by destroying the tail before Singe dies.&#xD;If you destroy Singe's tail you cannot get the Blazing Heart.&#xD;This item allows you to purchase Smolder from McCabe.&#xD;&#xD;Provisioner Ring: Can be obtained on Hardcore Mode</Boss>
+    <Boss name="WastelandGuardian">Stone of the Guardian: Allow Claviger to absorb at least one minion. He absorbs minions when he smashes the ground.&#xD;&#xD;Void Sliver: Prevent Claviger from absorbing any summoned minions by killing them quickly. He absorbs minions when he smashes the ground.&#xD;&#xD;Akari War Band: Can be obtained at Hardcore Mode</Boss>
+    <Boss name="TheHarrow">Thermal Geode: You have to kill the Harrow without taking the Lost Harpoon.&#xD;&#xD;Lost Harpoon: Shoot him in the legs to stagger him a few times, and he will eventually drop to the ground. When he does, go behind him and grab the Lost Harpoon. NOTE: This is not a persistent state between attempts. If you die, you must repeat the process to receive the Harpoon.&#xD;&#xD;Akari War Band: Can be obtained at Hardcore Mode</Boss>
+    <Boss name="UndyingKing">An encounter with boss is not optional, but fighting him is. The player may choose to comply with the Undying King's request and bring him the Guardian's Heart from Corsus, or instead antagonize the Undying King and fight him. If the player accepts to bring him the Guardian's Heart, he will then open the portal to Corsus. If you give him the Guardian's Heart he will give you Labyrinth Key and Riven. The player may agree with the Undying King first, and betray him later, only gaining a slightly quicker access to Corsus.</Boss>
+    <Boss name="Fatty">Hammerhead's Ore: After entering the arena, stick to the right and go down into the basement. Do not aggro the boss. There will be 3 pots that can be interacted with. Interacting with the pots will trigger a hiding animation. Once inside the pot, wait for the cut scene transition and defeat the Unclean One afterwards.&#xD;This reward replaces the Unclean Heart.</Boss>
+    <Boss name="SwampGuardian">Hivestone: You have to let one of the Ixillis become enraged (e.i. focuse on one and leave the other alone until it's time to put it down.)&#xD;&#xD;Guardian Tentacle: (You must defeat both Ixillis XV and Ixillis XVI either at the same time or in rapid succession. if you let the remaining Ixillis become enraged over the other's death, you will not get this material.)&#xD;&#xD;Empowering Loop: Can be obtained on Hardcore Mode</Boss>
+    <Boss name="Wolf">Tentacle Pod Can be obtained by defeating him&#xD;&#xD;Stalker's Claw: If you play the lullaby the boss will not fight you. You can talk to him and he will give you the Claw.&#xD;&#xD;Ring of Supremacy: Can be obtained on Hardcore Mode</Boss>
+    <Boss name="TotemFather">Totem Antler: If the totem outside is Blue you will obtain this drop&#xD;&#xD;Tempest Heartstring: If the totem outside is red you will obtain this drop&#xD;&#xD;Ring of Supremacy: Can be obtained on Hardcore Mode</Boss>
+    <Boss name="Ward17">Dreamer's Mana: This item allows you to purchase Repulsor from McCabe.&#xD;&#xD;Nightmare Spiral (Hardcore Mode)&#xD;High Five Emote (Hardcore Mode)</Boss>
+    <Boss name="Brabus">Shrapnel Shard: This item allows you to purchase the Explosive Shot mod from McCabe.&#xD;&#xD;Bandit Set: If the player possesses the Pocket Watch from Mud Tooth (old man in the helicopter), gives it to Brabus, and answers honestly that the old man wanted to give it to his son but couldn't wait for him, then the boss fight is bypassed and the player is rewarded with the Bandit Set.&#xD;&#xD;Cold as Ice Trait: Brabus will ask the player to kill their co-op partner as long the player do not have the Pocket Watch. (if you have the Pocket Watch give it to Brabaus to remove it and re-roll the world)&#xD;Only the player that wins the fight will get the trait. (If you choose to attack your teammate. You don't have to fight Brabus)</Boss>
+    <Boss name="OldManAndConstruct">In order to activate the Ancient Construct you have to acquire a Control Rod by killing Maul with a specific strategy.&#xD;&#xD;Break the Houndmaster's "horn", a couple of shots or a shotgun blast will do the trick and when it starts to glow, the Control Rod should be visible. Maul will then attack it's master. If you die the Houndmaster will not respawn and you will receive the Control Rod when Maul is defeated provided that the device has been broken before.&#xD;&#xD;Place the Control Rod into the chest of the Vyr automaton outside of Wud's shop in Rhom and it will activate. This begins a boss fight against the Ancient Construct, which yields the Ancient Core.&#xD;&#xD;NOTE: You must have Houndmaster and Wud's shop in the same map to be able to activate the Ancient Construct.</Boss>
+    <Boss name="HoundMaster">Control Rod: Break the Houndmaster's "horn", a couple of shots or a shotgun blast will do the trick and when it starts to glow, the control rod should be visible. Maul will then attack it's master. If you die the Houndmaster will not respawn and you will receive the Control Rod when Maul is defeated provided that the device has been broken before.</Boss>
+    <Boss name="QueensTemple">Alternative kill reward Iskal Husk: For the alternative kill, destroy the pillar above her head when she lands after getting out of her throne. Wait until she lands, fire in her head and then destroy the pillar on the roof. It will fall on her head and kill her.</Boss>
+    <Boss name="StuckMerchant">Location: Yaesha - Guardian Shrine requiring Strange Curio which can found at the back of the Stuck Merchant cart.&#xD;&#xD;The boss will appear after you unlock the statue that has the Radiant Visage inside.</Boss>
+  </BossDescriptions>
+  <ItemDescriptions>	
+    <ItemRoot name="AbandonedThrone">
+		<ItemGroup index="1">Increase chance to double the amount of Lumenite Crystal by +1.5 per point</ItemGroup>
+    </ItemRoot>
+	<ItemRoot name="AcesCoin">
+		<ItemGroup index="1">You can give this item to Ace, and she will reward you with Magnum Revolver and 300 Scrap</ItemGroup>
+    </ItemRoot>
+	<ItemRoot name="AggressorsBane">
+		<ItemGroup index="1">Reduces incoming damage by 15%, but also increases enemy aggression towards the wearer, and increases enemy awareness by range 200%</ItemGroup>
+    </ItemRoot>
+	<ItemRoot name="ArmorVault">
+		<ItemGroup index="1">Perfect dodging enemy attacks increases Movement, Firing, Melee, Reload, and Evade Speed for 10 seconds. Slightly increases Evade window.&#xD;&#xD;Skill Level 1: +7.5% Speed&#xD;Skill Level 2: +15% Speed&#xD;Skill Level 3: +30% Speed&#xD;</ItemGroup>
+    </ItemRoot>
+	<ItemRoot name="BandOfCastor">
+		<ItemGroup index="1">Increases Melee Speed by 10%, but reduces Fire Rate by 15%&#xD;&#xD;While wearing BAND OF POLLUX, Encumbrance is reduced by 15 and Evade Speed is increased by 15%</ItemGroup>
+    </ItemRoot>
+	<ItemRoot name="BandOfPollux">
+		<ItemGroup index="1">Increases Melee Damage by 15%, but reduces Ranged Damage by 20%.&#xD;&#xD;While wearing BAND OF CASTOR, Encumbrance is reduced by 15 and Evade Speed is increased by 15%</ItemGroup>
+    </ItemRoot>
+	<ItemRoot name="BandOfStrength">
+		<ItemGroup index="1">Melee Charge Attacks increase Melee damage by 5% for 10 seconds. Stacks up to 4 times</ItemGroup>
+    </ItemRoot>
+	<ItemRoot name="BarbTerror">
+		<ItemGroup index="1">Unleash a rapid burst of 12 quills. Press F again to detonate dealing 15 CORROSIVE damage each within 2.5 meters. Overcharge quills by shooting an enemy with quills attached until they glow, then detonate increasing the damage to 30 CORROSIVE damage each</ItemGroup>
+    </ItemRoot>
+	<ItemRoot name="BlinkFiend">
+		<ItemGroup index="1">Teleports the caster forward up to 13 meters and creates an electrical blast that deals 210 SHOCK damage within 3 meters</ItemGroup>
+    </ItemRoot>
+	<ItemRoot name="BlinkThief">
+		<ItemGroup index="1">This weapon requires Long Gun Ammo&#xD;&#xD;Max. damage: 300</ItemGroup>
+		<ItemGroup index="2">Increases Consumable Use Speed by 40%</ItemGroup>
+    </ItemRoot>
+	<ItemRoot name="BloodFont">
+		<ItemGroup index="1">Regenerates 0.476 Health per second</ItemGroup>		
+    </ItemRoot>
+	<ItemRoot name="Brabus">
+		<ItemGroup index="1">Fires an explosive round that deals up to 240 damage to enemies within 4 meters</ItemGroup>
+		<ItemGroup index="2">Chance to replace spent bullet on hit. Increases Ammo acquired on pickup by 25%.&#xD;&#xD;Skill Level 1: 10% Chance&#xD;Skill Level 2: 20% Chance&#xD;Skill Level 3: 35% Chance</ItemGroup>		
+		<ItemGroup index="3">Increase Backstab Damage by +0.5%  per point</ItemGroup>
+    </ItemRoot>
+	<ItemRoot name="BrainBug">
+		<ItemGroup index="1">Mod power is generated slowly over time, but reduces the wearer's Healing Effectiveness by 25%</ItemGroup>
+		<ItemGroup index="2">When getting hit, damage is reduced, encumbrance is increased and Movement Speed is reduced for 3.5 seconds. Stacks 5 times. When getting hit, also has a 10% chance to reduce damage taken by 30%.&#xD;&#xD;Skill Level 1: +2% Reduction +1 Encumbrance&#xD;Skill Level 2: +4% Reduction +1.8 Encumbrance&#xD;Skill Level 3: +8% Reduction +3 Encumbrance&#xD;</ItemGroup>
+		<ItemGroup index="3">Increase chance to double the amount of Lumenite Crystal by +1.5 per point</ItemGroup>
+    </ItemRoot>
+	<ItemRoot name="BrutalMark">
+		<ItemGroup index="1">Deal 20% bonus damage to enemies that have less than 50% Health</ItemGroup>
+    </ItemRoot>
+	<ItemRoot name="ButchersFetish">
+		<ItemGroup index="1">Increases Crit Chance by 15% for 10 seconds after striking an enemy with a Charged Melee Attack</ItemGroup>
+    </ItemRoot>
+	<ItemRoot name="CleansingJewel">
+		<ItemGroup index="1">Receiving a benefit from a Dragon Heart removes all STATUS effects. STATUS effect buildup is reduced by 50%</ItemGroup>
+    </ItemRoot>
+	<ItemRoot name="CompulsionLoop">
+		<ItemGroup index="1">Increase Movement Speed by 20%, Fire Rate by 15%, and Melee Speed by 10% for 5 seconds after slaying an enemy</ItemGroup>
+    </ItemRoot>
+	<ItemRoot name="Cryptolith">
+		<ItemGroup index="1">Increase Weapon Mod Duration by 1% per Point</ItemGroup>
+		<ItemGroup index="2">Increases damage absorbed by summons when the summoner takes damage by +0.75% per point</ItemGroup>
+		<ItemGroup index="3">Increase Total Weapon Mod damage. Pulls Scrap and Iron materials towards the wearer.&#xD;&#xD;Skill Level 1: +15% Damage&#xD;Skill Level 2: +30% Damage&#xD;Skill Level 3: +50% Damage</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="DeceiversBand">
+		<ItemGroup index="1">No Item Information</ItemGroup>
+    </ItemRoot>
+	<ItemRoot name="DevouringLoop">
+		<ItemGroup index="1">Critical Hits have a 6% chance to deal 4x damage</ItemGroup>
+    </ItemRoot>
+	<ItemRoot name="DoeShrine">
+		<ItemGroup index="1">Increases the amount of Scrap picked up by 50%</ItemGroup>
+		<ItemGroup index="2">Movement Speed Increased by 0.75% per point</ItemGroup>
+    </ItemRoot>
+	<ItemRoot name="DrifterMask">
+		<ItemGroup index="1">Stamina Cost is reduced. Stamina Regen is increased by 15%&#xD;&#xD;Skill Level 1: -15% Stamina Cost&#xD;Skill Level 2: -25% Stamina Cost&#xD;Skill Level 3: -40% Stamina Cost</ItemGroup>
+    </ItemRoot>
+	<ItemRoot name="EzlansBand">
+		<ItemGroup index="1">Increases Max Health by 25</ItemGroup>
+    </ItemRoot>
+	<ItemRoot name="Fatty">
+		<ItemGroup index="1">This weapon requires Long Gun Ammo&#xD;&#xD;Max. damage: 96</ItemGroup>
+		<ItemGroup index="2">Melee Weapon Type</ItemGroup>
+		<ItemGroup index="3">Increase Consumable Use Speed  +1.75% per Point</ItemGroup>
+		<ItemGroup index="4">Recover your breath while pointing up with one finger</ItemGroup>
+    </ItemRoot>
+	<ItemRoot name="FetidPool">
+		<ItemGroup index="1">Reduces Stamina Cost by 80% but increases Armor Encumbrance by 25&#xD;&#xD;You can crouch on one of the acid pools inside the Fetid Pool to dissolve the Rusted Amulet. You will get the Acid Cleaned Key in exchange which can be used to open one of the doors located at the end of the dungeon</ItemGroup>
+		<ItemGroup index="2">Increases Ranged and Melee damage dealt by 20%. Increases damage received by 50% for 60 seconds after using a Dragon Heart</ItemGroup>
+		<ItemGroup index="3">Increases Movement Speed by 25% while sprinting towards a wounded teammate. Revive Speed is increased by 100% and the wearer cannot by staggered while reviving</ItemGroup>
+		<ItemGroup index="4">Reduces damage taken while reviving teammates by +1.25% per point</ItemGroup>
+    </ItemRoot>
+	<ItemRoot name="Flautist">
+		<ItemGroup index="1">Increases Stamina by 25 and Movement speed by 10%</ItemGroup>
+		<ItemGroup index="2">Movement Speed Increased by 0.75% per point</ItemGroup>		
+    </ItemRoot>
+	<ItemRoot name="FlickeringHorror">
+		<ItemGroup index="1">Enter a rift for 2.8 seconds leaving a summoned CLONE behind which draws aggro within 12.5 meters. The caster is invulnerable and their Movement Speed is increased by 30%. Upon exiting, the clone explodes dealing 250 damage within 5.5 meters. Does not affect powerful enemies. (Max 1)</ItemGroup>
+    </ItemRoot>
+	<ItemRoot name="FoundersHideout">
+		<ItemGroup index="1">Stamina Cost is reduced. Stamina Regen is increased by 15%&#xD;&#xD;Skill Level 1: -15% Stamina Cost&#xD;Skill Level 2: -25% Stamina Cost&#xD;Skill Level 3: -40% Stamina Cost</ItemGroup>
+    </ItemRoot>
+	<ItemRoot name="GalenicCharm">
+		<ItemGroup index="1">Increases Weapon Mod damage by 30%</ItemGroup>		
+    </ItemRoot>
+	<ItemRoot name="GalenicCharm">
+		<ItemGroup index="1">Increases Weapon Mod damage by 30%</ItemGroup>		
+    </ItemRoot>
+	<ItemRoot name="GraveyardElf">
+		<ItemGroup index="1">Reloading a weapon after dealing 60% of the base damage from a single magazine increases its damage by 4% for 15 Seconds. Stacks 5 times</ItemGroup>
+		<ItemGroup index="2">Unarmed Melee attacks deal 2x damage</ItemGroup>
+		<ItemGroup index="3">Increases Consumable Duration by +1% per point</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="GravityStone">
+		<ItemGroup index="1">Increases damage by 20% when there are at least 2 enemies within 10 meters of the wearer</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="GunslingersCharm">
+		<ItemGroup index="1">Increases Fire Rate by 15% and Reload Speed by 20%</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="GunslignersRing">
+		<ItemGroup index="1">Increases Firearm Swap Speed by 50% and Fire Rate by 5%</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="HeartSeeker">
+		<ItemGroup index="1">Provides a 100% Crit Chance against non-aggressive enemies and increases Crit Damage by 15%</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="HoundMaster">
+		<ItemGroup index="1">Projects a 20 meter aura that moves with the caster and reduces incoming damage to all allies standing in the aura by 15%. Lasts 30 seconds</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="HuntersBand">
+		<ItemGroup index="1">Increases Weak Spot damage by 30% when hitting a target's weak spot from farther than 12 meters</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="HuntersHalo">
+		<ItemGroup index="1">Increase the effective Range of all firearms by 4m</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="HuntersHideout">
+		<ItemGroup index="1">This weapon requires Hand Gun Ammo&#xD;&#xD;Max. damage: 315</ItemGroup>
+		<ItemGroup index="2">Reduces Enemy Awareness by -1.5% per Point</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="ImmolatorAndZephyr">
+		<ItemGroup index="1">Shoots an arcing fireball that deals 25 FIRE damage and ignites enemies with the BURNING effect within 2 meters, dealing 300 FIRE damage over 10 seconds</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="IskalQueen">
+		<ItemGroup index="1">Melee Weapon Type</ItemGroup>
+		<ItemGroup index="2">This weapon requires Long Gun Ammo&#xD;&#xD;Max. damage: 345</ItemGroup>
+		<ItemGroup index="3">Reloading increases the Total damage dealt to the next enemy hit with that weapon. Reload speed is increased by 10%&#xD;&#xD;Skill Level 1: +7.5% Damage&#xD;Skill Level 2: +15% Damage&#xD;Skill Level 3: +30% Damage</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="KeepersRing">
+		<ItemGroup index="1">Increases resistance to all elemental damage by 20</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="KinCaller">
+		<ItemGroup index="1">Projects a 25 meter aura that moves with the caster. All allies standing in that aura will have all of their damage dealt increased by 10%. Lasts for 30 seconds</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="LastWill">
+		<ItemGroup index="1">This weapon requires Long Gun Ammo&#xD;&#xD;Max. damage: 45</ItemGroup>
+		<ItemGroup index="2">Increases Mod Power Generation by +1.25% per point</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="LeechEmber">
+		<ItemGroup index="1">Melee hits steal Health from enemies</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="LizAndLiz">
+		<ItemGroup index="1">This weapon requires Long Gun Ammo&#xD;&#xD;Max. damage: 33</ItemGroup>
+		<ItemGroup index="2">Increases Melee Damage by +1% per Point</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="MadMerchant">
+		<ItemGroup index="1">Slowly regenerates Health over time. Melee hits steal Health from enemies (2.5%)&#xD;&#xD;Skill Level 1: +0.304 Health Per Second&#xD;Skill Level 2: +0.375 Health Per Second&#xD;Skill Level 3: +0.56 Health Per Second</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="Monolith">
+		<ItemGroup index="1">Gain damage stack and remove a defensive stack every 5 seconds. Taking damage transfers damage to defense. Damage stacks increases Total Damage. Max 5 stacks. Standing Aim Movement Speed is increased by 30%&#xD;&#xD;Skill Level 1: +1.5% Damage&#xD;Skill Level 2: +3% Damage&#xD;Skill Level 3: +5% Damage</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="MothersRing">
+		<ItemGroup index="1">Reduces incoming Ranged Damage by 20%</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="MudTooth">
+		<ItemGroup index="1">Increases Stamina Regen by 20 per second and reduces Stamina Cost by 20%</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="OldManAndConstruct">
+		<ItemGroup index="1">Increases Ranged damage by 7% for 20 seconds after a ranged kill. Stacks 3 times</ItemGroup>
+		<ItemGroup index="2">Dragon Hearts heal all allies with 50% base effectiveness. Increases all Healing Effectiveness by 50%</ItemGroup>
+		<ItemGroup index="3">Subsequent Ranged or Melee hits against the same enemy increases wearer's Total damage dealt to that enemy. Effect degrades over time. Melee Speed and Fire Rate are increased by 5%&#xD;&#xD;Skill Level 1: 10% Maximum Damage&#xD;Skill Level 2: +20% Maximum Damage&#xD;Skill Level 3: +35% Maximum Damage</ItemGroup>
+		<ItemGroup index="4">Summons a full automatic TURRET that shoots at 5 rounds per second and deals 5 damage per hit. Lasts 30 seconds. (Max 2)</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="PearlOfLuminescence">
+		<ItemGroup index="1">Wearer has a 70% chance to double the amount of Lumenite Crystal acquired on pickup when killing Elite enemies</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="Penitent">
+		<ItemGroup index="1">Reduces Armor Encumbrance by 40% and Stamina cost by 10%</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="PillarOfStone">
+		<ItemGroup index="1">Reduces Sway by 50% and Recoil by 25%</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="QueensTemple">
+		<ItemGroup index="1">This weapon requires Hand Gun Ammo&#xD;&#xD;Max. damage: 33</ItemGroup>
+		<ItemGroup index="2">Increase Aim Movement Speed by +1.25% per point</ItemGroup>
+		<ItemGroup index="3">Summons Beetle that will rush towards enemies and explode dealing 160 CORROSIVE damage within 4 meters. Lasts 30 seconds. (Max 3)</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="RazorStone">
+		<ItemGroup index="1">Melee Charge Attacks apply the BLEEDING effect dealing 600 damage over 20 seconds</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="ReggiesRing">
+		<ItemGroup index="1">Increases Scrap Boost by +1.75% per Point</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="RingOfElusion">
+		<ItemGroup index="1">Perfect Dodging enemy attacks refunds 50 Stamina and reduces Stamina Cost by 100% for 5 seconds</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="RingOfEvasion">
+		<ItemGroup index="1">Moderately increases Evade Window and increases Evade Speed by 10%</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="RockOfAnguish">
+		<ItemGroup index="1">Increases Movement Speed by 15% and Reload Speed by 25% for 10 seconds after taking damage</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="RingOfShadows">
+		<ItemGroup index="1">Reduces enemy Awareness Range by 40%</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="RootBrute">
+		<ItemGroup index="1">Reduces Melee damage taken from enemies by 20%, reflects 120% of Melee damage taken, and reduces stagger on hit. Lasts 60 seconds</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="RootCultist">
+		<ItemGroup index="1">Increases Crit Chance by 15% for 10 seconds after slaying an enemy</ItemGroup>
+		<ItemGroup index="2">Increases Melee Attack Speed by 15%</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="RootDragon">
+		<ItemGroup index="1">This weapon requires Hand Gun Ammo&#xD;&#xD;Max. damage: 36</ItemGroup>
+		<ItemGroup index="2">Melee Weapon Type</ItemGroup>
+		<ItemGroup index="3">Call someone with your hands</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="RootMother">
+		<ItemGroup index="1">Ranged Damage Reduction by +0.5% per Point</ItemGroup>
+		<ItemGroup index="2">This weapon requires Long Gun Ammo&#xD;&#xD;Max. damage: 375</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="RootTumbleweed">
+		<ItemGroup index="1">Summons a ROOT HOLLOW that deals 50 damage per hit. Lasts 30 seconds. (Max 2)</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="RootWraith">
+		<ItemGroup index="1">Shoots a projectile that summons a RATTLE WEED upon impact with 300 Health and draws aggro on enemies within 10 meters. Lasts 10 seconds. Does not affect powerful enemies. (Max 1)</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="RootEnt">
+		<ItemGroup index="1">This weapon requires Long Gun Ammo&#xD;&#xD;Max. damage: 600</ItemGroup>
+		<ItemGroup index="2">Melee Weapon Type</ItemGroup>
+		<ItemGroup index="3">Increases Weapon Reload Speed by +1.25% per point</ItemGroup>
+		<ItemGroup index="4">Cheer with your arms while screaming: "Aw Yeah!"</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="RootShrine">
+		<ItemGroup index="1">Slowly regenerates Health over time. Melee hits steal Health from enemies (2.5%)&#xD;&#xD;Skill Level 1: +0.304 Health Per Second&#xD;Skill Level 2: +0.375 Health Per Second&#xD;Skill Level 3: +0.56 Health Per Second</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="Sagestone">
+		<ItemGroup index="1">Increases earned Experience by 30%</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="Sentinel">
+		<ItemGroup index="1">Summons a WASTELAND SKULL which shoots projectiles that deal 40 damage per hit. Lasts 60 seconds. (Max 2)</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="SlaveRevolt">
+		<ItemGroup index="1">Increase Healing Effectiveness by +5% per point</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="SlimeHulk">
+		<ItemGroup index="1">Projects a 5 meter aura that moves with the caster. Enemies inside the aura become CORRODED which reduces their defense by 30%. Lasts 30 seconds</ItemGroup>
+		<ItemGroup index="2">Increases chance to proc status effects +1% per Point</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="SoulLink">
+		<ItemGroup index="1">Summons will steal 5% of the damage dealt and return it to the wearer as health</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="Splitter">
+		<ItemGroup index="1">Reduces stagger on hit. Enemies targeting the wearer take an additional 15% Total damage&#xD;&#xD;Skill Level 1: No Effect&#xD;Skill Level 2: No Effect&#xD;Skill Level 3: Reduces Stagger Level by 1</ItemGroup>
+		<ItemGroup index="2">Surrounds the caster with a magical shield absorbing 50% of their Max Health in damage from incoming attacks and prevents getting staggered. Lasts 15 seconds</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="StockpileCirclet">
+		<ItemGroup index="1">Increases Max Ammo reserves for all firearms by 50%</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="StoneOfBalance">
+		<ItemGroup index="1">Increases Ranged and Melee damage by 15%</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="StormAmulet">
+		<ItemGroup index="1">Increases SHOCK damage by 20%</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="StormCaller">
+		<ItemGroup index="1">Conjures an electrical storm centered around the caster which discharges lightning strikes that deal 40 SHOCK damage to nearby enemies within 35 meters and reduces incoming damage by 50%. Lasts 12 seconds</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="StuckMerchant">
+		<ItemGroup index="1">Melee Weapon Type</ItemGroup>
+		<ItemGroup index="2">Critical Hits increase Crit Chance and Crit damage for 2.5 seconds. Stacking up to 10 times. Recoil is reduced by 10%&#xD;&#xD;Skill Level 1: +0.75% Crit Chance and Damage&#xD;Skill Level 2: +1.5% Crit Chance and Damage&#xD;Skill Level 3: +2.5% Crit Chance and Damage</ItemGroup>
+		<ItemGroup index="3">Reduce incoming melee damage by 20%</ItemGroup>
+		<ItemGroup index="4">Increase Melee Damage Reduction by +0.5% per Point</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="SwampGuardian">
+		<ItemGroup index="1">This weapon requires Hand Gun Ammo&#xD;&#xD;Max. damage: 210</ItemGroup>
+		<ItemGroup index="2">Melee Weapon Type</ItemGroup>
+		<ItemGroup index="3">Increases Critical Hit Chance by +1.25% per point</ItemGroup>
+		<ItemGroup index="4">Look Around while moving your arms</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="SwarmMaster">
+		<ItemGroup index="1">Discharge 7 radioactive projectiles that will seek towards enemies within 20 meters and deal 30 RADIATION damage each</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="TalismanOfAnimosity">
+		<ItemGroup index="1">Increase Weakspot damage by 30%</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="TalismanOfPerseverance">
+		<ItemGroup index="1">Increases earned experience by 1% when slaying an enemy and will last until the wearer dies, unequips the amulet, or rests at a checkpoint. stacking up to 50 times</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="TheCleanRoom">
+		<ItemGroup index="1">Melee Weapon Type</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="TheHarrow">
+		<ItemGroup index="1">This weapon requires Hand Gun Ammo&#xD;&#xD;Max. damage: 156</ItemGroup>
+		<ItemGroup index="2">Melee Weapon Type</ItemGroup>
+		<ItemGroup index="3">Put your hand on your face while dissenting</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="TheLostGantry">
+		<ItemGroup index="1">This weapon requires Long Gun Ammo&#xD;&#xD;Max. damage: 60</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="TheRisen">
+		<ItemGroup index="1">Increases duration of summoned creatures by 100% and increases hero damage by 5% per summoned minion</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="TimidBeetle">
+		<ItemGroup index="1">When getting hit, damage is reduced, encumbrance is increased and Movement Speed is reduced for 3.5 seconds. Stacks 5 times. When getting hit, also has a 10% chance to reduce damage taken by 30%&#xD;&#xD;Skill Level 1: +2% Reduction +1 Encumbrance&#xD;Skill Level 2: +4% Reduction +1.8 Encumbrance&#xD;Skill Level 3: +8% Reduction +3 Encumbrance</ItemGroup>
+		<ItemGroup index="2">Reduces Spread by 35%</ItemGroup>
+		<ItemGroup index="3">Increases Mod Power generation by 10%. When attacking an enemy with an active STATUS EFFECT. Mod power generation is increased by an additional 25%</ItemGroup>
+		<ItemGroup index="4">Increases Fire Rate by 10% and Crit damage by 20% when the wearer stops moving for at least 1.5 seconds</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="TotemFather">
+		<ItemGroup index="1">Increases Mod Power gained on Melee hits by +1.25%</ItemGroup>
+		<ItemGroup index="2">This weapon requires Long Gun Ammo&#xD;&#xD;Max. damage: 195</ItemGroup>
+		<ItemGroup index="3">Melee Weapon Type</ItemGroup>
+		<ItemGroup index="4">Pretend to prepare tea with your arms</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="Tyrant">
+		<ItemGroup index="1">Unleash insects that will seek after enemies within 20 meters and repeatedly attack dealing 5 CORROSIVE damage per hit. Lasts 15 seconds</ItemGroup>
+		<ItemGroup index="2">Increases chance to proc status effects +1% per Point</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="UndyingKing">
+		<ItemGroup index="1">This weapon requires Long Gun Ammo&#xD;&#xD;Max. damage: 57</ItemGroup>
+		<ItemGroup index="2">Increase Critical Hit Damage by +1.25% per point</ItemGroup>
+		<ItemGroup index="3">Melee Weapon Type</ItemGroup>
+		<ItemGroup index="4">Pretend to dig with a shovel using your arms</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="VengeanceIdol">
+		<ItemGroup index="1">All damage dealt is increased by 30% when the wearer's Health is below 50%. Includes Summons</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="Uncategorized">
+		<ItemGroup index="1">Increases Weak Spot Damage by +1% per point</ItemGroup>
+		<ItemGroup index="2">Decreases Gun Spread and Recoil by -1% per Point</ItemGroup>
+		<ItemGroup index="3">Increase Elemental Resistance by +0.5 per point</ItemGroup>
+		<ItemGroup index="4">Increases Melee Attack Speed by +0.75% per point</ItemGroup>
+		<ItemGroup index="5">Increase Revive Speed by +5% per Point</ItemGroup>
+		<ItemGroup index="6">Increase Firearm Swap Speed by +2.5% per point</ItemGroup>
+		<ItemGroup index="7">Reduced Friendly Fire Damage Taken by -2.5% per point</ItemGroup>
+		<ItemGroup index="8">Increases Teamwork Range by +15 meter per point</ItemGroup>
+		<ItemGroup index="9">Increases Fire Rate by +1%  per point</ItemGroup>
+		<ItemGroup index="10">Increases Health while wounded by +5% per Point</ItemGroup>
+		<ItemGroup index="11">Reduces Stamina Cost by -1% per Point</ItemGroup>
+		<ItemGroup index="12">Increases Summons damage by +1% per point</ItemGroup>
+		<ItemGroup index="13">Wave with your hand</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="Vyr">
+		<ItemGroup index="1">Generates a 5 meter impenetrable energy field. Heroes standing inside the energy field can shoot outward. Lasts 10 seconds</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="WailingWood">
+		<ItemGroup index="1">Increases Armor Effectiveness by 30%</ItemGroup>
+		<ItemGroup index="2">Increases Armor Effectiveness by +0.75% per Point</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="Ward13">
+		<ItemGroup index="10">Increases Experience Point Bonus by +1% per Point</ItemGroup>
+		<ItemGroup index="12">Damage received is increased by 300%. Ranged, Melee, Mods and Minions damage dealt is increased by 15%</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="Ward17">
+		<ItemGroup index="1">This weapon requires Long Gun Ammo&#xD;&#xD;Max. damage: 300</ItemGroup>
+		<ItemGroup index="2">Increases Ranged Damage by +0.75% per point</ItemGroup>
+		<ItemGroup index="3">Raise your hand above your head while looking at it</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="Wisp">
+		<ItemGroup index="1">Summon Health is reduced by 60%. On death they'll explode dealing 150 plus weapon level damage within 4 meters. Summons that explode normally will deal 25% bonus damage</ItemGroup>		
+		<ItemGroup index="2">Increases Mod Damage Bonus by 0.75% per point</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="WastelandGuardian">
+		<ItemGroup index="1">Melee Weapon Type</ItemGroup>
+		<ItemGroup index="2">This weapon requires Long Gun Ammo&#xD;&#xD;Max. damage: 210</ItemGroup>
+		<ItemGroup index="3">Increases the value of Stamina Regen and decreases its delay by +1.25% per Point</ItemGroup>
+		<ItemGroup index="4">Laugh and point with your fingers</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="Wolf">
+		<ItemGroup index="1">This weapon requires Hand Gun Ammo&#xD;&#xD;Max. damage: 96</ItemGroup>
+		<ItemGroup index="2">Melee Weapon Type</ItemGroup>
+		<ItemGroup index="3">Increases Mod Power gained on Melee hits by +1.25%</ItemGroup>
+		<ItemGroup index="4">Movement Speed Increased by 0.75% per point</ItemGroup>
+		<ItemGroup index="5">Jump while raising your arm. You'll remain still in the air for a moment</ItemGroup>
+	</ItemRoot>
+	<ItemRoot name="WolfShrine">
+		<ItemGroup index="1">Dragon Hearts increases the Total damage dealt by all allies standing within 40 meters for 20 seconds. Gives 25% chance to not consume a Dragon Heart&#xD;&#xD;Skill Level 1: 10% Damage&#xD;Skill Level 2: 20% Damage&#xD;Skill Level 3: 35% Damage</ItemGroup>
+	</ItemRoot>
+  </ItemDescriptions>
+</RemnantDataSheet>

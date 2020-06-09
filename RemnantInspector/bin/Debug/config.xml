@@ -1,0 +1,43 @@
+<RemnantInspector>
+	<RemnantConfig>
+		<!--
+		This specifies the save slot on where to monitor progress.
+		Warning: Starts at 1!
+		-->
+		<SaveSlot>2</SaveSlot>
+		<!-- 
+		Gameplay Mode
+		Campaign for ...Campaign?
+		Adventure for adventure mode
+		Survival not supported
+		-->
+		<GameplayMode>Campaign</GameplayMode>
+	</RemnantConfig>
+	<OverlaySettings>
+		<!-- 
+			Window Offset-X. 32 will place the window 32 pixels from the left. 
+			If multiple displays are used this value has to be updated.
+			Eg. Dimensions are 1920x1080p then to place the overlay on the 2nd screen 
+			1920 + 32 = 1952
+		-->
+		<Offset_X>32</Offset_X>
+		<!--
+			Game watcher checks if remnant is running and will auto terminate the overlay
+		-->
+		<EnableGameWatcher>false</EnableGameWatcher>
+		<ShowAppInTaskbar>true</ShowAppInTaskbar>		
+	</OverlaySettings>
+	<UISettings>
+		<!--
+			Various true/false flags to manage UI clutter
+		-->
+		<EnableDescriptions_Boss>true</EnableDescriptions_Boss>
+		<EnableDescriptions_Trait>true</EnableDescriptions_Trait>
+		<EnableDescriptions_Mod>false</EnableDescriptions_Mod>
+		<EnableDescriptions_Weapon>false</EnableDescriptions_Weapon>
+		<EnableDescriptions_Armor>false</EnableDescriptions_Armor>
+		<EnableDescriptions_Accessories>true</EnableDescriptions_Accessories>
+		<EnableDescriptions_Emote>false</EnableDescriptions_Emote>
+		<HideCompleted>true</HideCompleted>
+	</UISettings>
+</RemnantInspector>
